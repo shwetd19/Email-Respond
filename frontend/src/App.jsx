@@ -29,7 +29,7 @@ function App() {
       try {
         // Make a POST request to the backend with userEmail
         const response = await axios.post(
-          "https://news-letter-siga.onrender.com/api/email",
+          "/api/email",
           {
             userEmail: email,
           }
