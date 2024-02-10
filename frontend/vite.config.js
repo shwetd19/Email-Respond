@@ -4,7 +4,7 @@ import ReactRefresh from "@vitejs/plugin-react-refresh";
 export default {
   build: {
     rollupOptions: {
-      external: '/src/main.jsx',
+      external: '/src/index.jsx',
     },
   },
   plugins: [ReactRefresh()],
